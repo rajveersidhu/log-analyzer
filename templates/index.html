@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suspicious Logins</title>
+</head>
+<body>
+    <h2>Suspicious Logins</h2>
+    <table border="1">
+        <tr>
+            <th>Username</th>
+            <th>IP Address</th>
+            <th>Log Entry</th>
+        </tr>
+        {% for log in logs %}
+        <tr>
+            <td>{{ log[0] }}</td>
+            <td>{{ log[1] }}</td>
+            <td>{{ log[2] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
