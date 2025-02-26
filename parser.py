@@ -4,8 +4,8 @@ LOG_FILE = "/var/log/auth.log"  # Change this to your log file path
 
 def parse_logs():
     suspicious_entries = []
-
-    # Regex patterns for failed SSH logins and brute-force attempts
+    
+    # Regex pattern for failed SSH logins
     ssh_fail_pattern = r"Failed password for (invalid user )?(\w+) from (\d+\.\d+\.\d+\.\d+) port"
 
     with open(LOG_FILE, "r") as log:
