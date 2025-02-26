@@ -1,6 +1,6 @@
 import re
 
-LOG_FILE = "/var/log/auth.log"  # Change this to your log file path
+LOG_FILE = "C:\Windows\System32\winevt\Logs\Security.evtx"  # Change this to your log file path
 
 def parse_logs():
     suspicious_entries = []
