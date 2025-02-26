@@ -23,7 +23,7 @@
 ## **🛠️ Installation**
 ### **1️⃣ Clone the repository**
 ```bash
-git clone https://github.com/yourusername/log-analyzer.git
+git clone https://github.com/rajveersidhu/log-analyzer.git
 cd log-analyzer
 ```
 
