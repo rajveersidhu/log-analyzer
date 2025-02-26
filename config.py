@@ -1,4 +1,4 @@
-LOG_FILE = "/var/log/auth.log"
+LOG_FILE = "C:\Windows\System32\winevt\Logs\Security.evtx"
 EMAIL_ALERTS = True  # Set to False to disable email alerts
 
 # Email settings
